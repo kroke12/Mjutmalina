@@ -1,6 +1,22 @@
 
 <?php
+
+  <html>
+<head>
+<body>
   echo "Hello World!!!";
-?>
+<form method="POST" action="">
+<input type="text" name="liczba1" size="10">
+<select name="znak">
+<option>+</option>
+<option>-</option>
+<option>*</option>
+<option>/</option>
+</select>
+<input type="text" name="liczba2" size="10">
+<input type="submit" value="Oblicz">
+</form>
+<?php
+
 
 
