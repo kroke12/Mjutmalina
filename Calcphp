@@ -2,10 +2,22 @@
   echo "Hello World!!!";
 
 
-$pierwsza_liczba = $_POST['pierwsza_liczba'];
-$druga_liczba = $_POST['pierwsza_liczba'];
-$znak=$_POST['znak'];
-$wynik="";
+$liczba1 = $_POST['liczba1'];
+$liczba2 = $_POST['liczba2'];
+$znak = $_POST['znak'];
+$wynik = "";
+switch ($znak)
+{
+ case "+":
+   $wynik = $liczba1+$liczba2;
+   break;
+ case "-":
+   $wynik = $liczba1-$liczba2;
+   break;
+
+}
+echo $wynik;
+
 
 
 
