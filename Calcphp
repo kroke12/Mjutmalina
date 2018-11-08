@@ -34,6 +34,7 @@ switch ($znak)
    $wynik = $liczba1/$liczba2;
    break;
    
+   
    }
    echo $wynik;
 ?>
