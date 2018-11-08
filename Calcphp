@@ -1,7 +1,12 @@
 <?php
   echo "Hello World!";
 
-$pierwsza_liczba
+
+$pierwsza_liczba = $_POST['pierwsza_liczba'];
+$druga_liczba = $_POST['pierwsza_liczba'];
+$znak=$_POST['znak'];
+$wynik="";
+
 
 
 
