@@ -13,3 +13,23 @@
 <input type="submit" value="Oblicz">
 </form>
 <?php
+switch ($znak)
+{
+ case "+":
+   $wynik = $pierwszaliczba+$liczba2;
+   break;
+ case "-":
+   $wynik = $liczba1-$liczba2;
+   break;
+ case "*":
+   $wynik = $liczba1*$liczba2;
+   break;
+ case "/":
+   $wynik = $liczba1/$liczba2;
+   break;
+}
+echo $wynik;
+?>
+</body>
+</head>
+</html>
