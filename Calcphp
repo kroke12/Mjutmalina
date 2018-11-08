@@ -1,7 +1,4 @@
 
-
- <?php
-  echo "Hello World!!!";
 <html>
 <head>
 <body>
@@ -17,31 +14,4 @@
 <input type="submit" value="Oblicz">
 </form>
 <?php
-
-   $liczba2 = $_POST['liczba2'];
-$znak = $_POST['znak'];	$znak = $_POST['znak'];
-$wynik = "";	$wynik = "";
-switch ($znak)
-{
- case "+":
-   $wynik = $liczba1+$liczba2;
-   break;
-   case "-":
-   $wynik = $liczba1-$liczba2;
-   break;
- case "*":
-   $wynik = $liczba1*$liczba2;
-   break;
- case "/":
-   $wynik = $liczba1/$liczba2;
-   break;
-   
-   
-   }
-   echo $wynik;
-?>
-</body>
-</head>
-</html>
-
 
