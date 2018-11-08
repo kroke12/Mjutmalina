@@ -35,5 +35,10 @@ switch ($znak)
    break;
    
    }
+   echo $wynik;
+?>
+</body>
+</head>
+</html>
 
 
